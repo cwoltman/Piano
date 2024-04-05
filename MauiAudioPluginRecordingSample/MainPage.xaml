@@ -11,7 +11,7 @@
 
             <Image
                 Source="piano.jpg"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                SemanticProperties.Description="App Logo"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
@@ -31,7 +31,7 @@
             <Button
                 x:Name="CounterBtn"
                 Text="Press to Record"
-                SemanticProperties.Hint="Counts the number of times you click"
+                SemanticProperties.Hint="Press to Record or Stop Recording"
                 Clicked="OnButtonClicked"
                 HorizontalOptions="Center" />
 
