@@ -35,6 +35,12 @@
                 Clicked="OnButtonClicked"
                 HorizontalOptions="Center" />
 
+            <Image
+                Source="pianokeys.png"
+                SemanticProperties.Description="App Logo"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 
